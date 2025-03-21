@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - alfeya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 900px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 10px;
+            border-bottom: 3px solid black;
+        }
+        .photo {
+            width: 150px;
+            height: 180px;
+            background-color: #ccc;
+            text-align: center;
+            line-height: 180px;
+            font-size: 14px;
+            border: 2px solid black;
+        }
+        .personal-info {
+            text-align: right;
+        }
+        .personal-info p {
+            margin: 5px 0;
+        }
+        .section {
+            padding: 10px 0;
+            border-bottom: 3px solid black;
+        }
+        h2 {
+            text-decoration: underline;
+            margin-bottom: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: #ddd;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header Section -->
+    <div class="header">
+        <div class="photo">
+            <img src="img/photo1.jpg" alt="Profile Picture" width="150px" height="180px">
+        </div>
+        <div class="personal-info">
+            <p>Alfeya</p>
+            <p>D/o 7/324,<br>Bommanicken palayam,<br> bus stand,<br> Tiruppur</p>
+            <p>Email: <a href="alfeyak366@gmail.com">alfeyak366@gmail.com</a></p>
+            <p>Mobile: 7449244969</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/alfeya">Profile Link</a></p>
+        </div>
+    </div>
+
+    <!-- Career Objective Section -->
+    <div class="section">
+        <h2>Career Objective</h2>
+        <p>Looking to establish a career in the field of Information Technology and work in a growth-oriented company.</p>
+    </div>
+
+    <!-- Academic Credentials Section -->
+    <div class="section">
+        <h2>Academic Credentials</h2>
+        <table>
+            <tr>
+                <th>Qualification</th>
+                <th>Institution</th>
+                <th>Year of Completion</th>
+                <th>Marks/CGPA</th>
+            </tr>
+            <tr>
+                <td>BSC(Information technology)</td>
+                <td>Hindustan college of science and commerce College</td>
+                <td>1st Year - 2024</td>
+                <td>82%</td>
+            </tr>
+            <tr>
+                <td> HSC</td>
+                <td> Jai vabai Model Higher Secondary School</td>
+                <td>2023</td>
+                <td>95%</td>
+            </tr>
+            <tr>
+                <td>SSLC</td>
+                <td>Government Higher Secondary School</td>
+                <td>2021</td>
+                <td>All Pass</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Skills and Achievements -->
+    <div class="section">
+        <h2>Skills and Achievements</h2>
+        <ul>
+            <li>Completed HTML course</li>
+            <li>Completed C language course</li>
+        </ul>
+    </div>
+
+    <!-- Special Interests -->
+    <div class="section">
+        <h2>Special Interests</h2>
+        <ul>
+            <li>Reading books</li>
+            <li>Listening to music</li>
+        </ul>
+    </div>
+
+    <!-- Co-Curricular Activities -->
+    <div class="section">
+        <h2>Co-Curricular Activities</h2>
+        <ul>
+            <li>Coordinator for Annual Sports Day event at college</li>
+            <li>Attended a Youth Red Cross camp in 2024</li>
+        </ul>
+    </div>
+
+    <!-- Personal Details -->
+    <div class="section">
+        <h2>Personal Details</h2>
+        <p><strong>Name:</strong> Alfeya.k</p>
+        <p><strong>Father's Name:</strong> Kadhar </p>
+        <p><strong>Date of Birth:</strong> 13.07.2005</p>
+        <p><strong>Age:</strong> 19</p>
+        <p><strong>Gender:</strong> Female</p>
+        <p><strong>Nationality:</strong> Indian</p>
+        <p><strong>Marital Status:</strong> Single</p>
+        <p><strong>Mother Tongue:</strong> Tamil</p>
+        <p><strong>Languages Known:</strong> Tamil, English, Hindi</p>
+    </div>
+
+    <!-- Declaration -->
+    <div class="section">
+        <p><strong>Declaration:</strong> I hereby declare that the above personal particulars are true and correct to the best of my knowledge and belief.</p>
+        <p><strong>Date:</strong> 19.12.2024</p>
+        <p><strong>Place:</strong> chennimalai</p>
+        <p align="right">Alfeya</p>
+    </div>
+
+</div>
+ 
+
+</body>
+</html>
